@@ -19,7 +19,8 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
+    /* tfjs@1.3.1 (pinned by @teachablemachine/image) ships .ts sources with enums */
+    "erasableSyntaxOnly": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
